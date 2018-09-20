@@ -1,0 +1,160 @@
+body {
+    background-color: #193121;
+    font-family: arial;
+    overflow-x: hidden;
+}
+
+.clubs {
+    display: none;
+}
+
+#main_header {
+    display: none;
+}
+
+#main_wrapper {
+    background: #0c0c0c;
+
+}
+
+.filtro.form {
+
+    display: none;
+}
+
+.mod > .title, .main.title, .jugador_principal .title {
+
+    display: none;
+}
+.js_game {
+    display: block;
+    margin: 50px 0px 10px;
+    font-size: 30px;
+}
+
+.subtab.selected {
+    background-color: #2c74bd;
+}
+.subtab {
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    box-sizing: border-box;
+
+    color: #ffffff;
+    height: 60px;
+    /* background-color: rgba(255,255,255,0.6); */
+}
+
+.fichapartido .encabezado {
+       display: none;
+}
+
+body.app #main_footer {
+    display: none;
+}
+
+#main_footer {
+    background-color: #000;
+    color: #FFF;
+    display: none;
+}
+
+table.footable-details > tbody > tr > td.block a, .desglose .link {
+       display: none;
+}
+
+.tablestats .name.Portero {
+    border-left: 20px solid #3f8e42;
+    border-left-width: 25px;
+    border-left-style: solid;
+    border-left-color: rgb(63, 142, 66);
+    background-color: rgba(63, 142, 66, 0.40);
+        border-bottom: 2px solid;
+}
+
+.tablestats .name.Defensa {
+    border-left: 4px solid #756547;
+    border-left-width: 25px;
+    border-left-style: solid;
+    border-left-color: rgb(117, 101, 71);
+            background: rgba(117, 101, 71, 0.40);
+        border-bottom: 2px solid;
+}
+
+.tablestats .name.Mediocampista {
+    border-left: 4px solid #ef8c00;
+    border-left-width: 25px;
+    border-left-style: solid;
+    border-left-color: rgb(239, 140, 0);
+        background-color: rgb(239, 140, 0, 0.40);
+        border-bottom: 2px solid;
+}
+
+.tablestats .name.Delantero {
+    border-left: 4px solid #ff2222;
+    border-left-width: 25px;
+    border-left-style: solid;
+    border-left-color: rgb(255, 34, 34);
+        background-color: rgb(255, 34, 34, 0.40);
+        border-bottom: 2px solid;
+}
+
+h2 {
+       display: none;
+}
+
+.cronista_principal .tablestats td.name, .cronistas_wrapper .tablestats td.name, .convocados .conv .jugador, .comparador .link, .condesplegable .name, .footable .name .link, .related-link, .balonparado .jugadorbloque, .cronista .link, .lesionado .datos .jugador, .sancionado .datos .jugador, .nodisponible .datos .jugador, .apercibidos .jugador, .bp .jugador {
+    display: inline-block;
+    color: #1b0000;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    padding: 6px 0;
+    margin: 5px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.plegado .fa, .desplegado .fa {
+    display: none;
+}
+
+
+.point.scale0 {
+    color: #DF0101;
+}
+
+.point.scale1 {
+    color: #ff5722;
+}
+
+.point.scale2 {
+    color: #4caf50;
+}
+
+.point.scale3 {
+    color: #009688;
+}
+
+.point.scale4 {
+    color: #673ab7;
+}
+.point.scale5 {
+    color: #dfff66;
+}
+
+.tablestats .desglose .estadistica {
+    padding: 2px 10px;
+    background-color: #FFEB3B;
+}
+.puntos .tablestats td.data:last-child {
+    text-align: right;
+    padding-right: 2px;
+    font-size: 20px;
+}
+.mod > .title, .main.title, .jugador_principal .title {
+    display:none;
+}
