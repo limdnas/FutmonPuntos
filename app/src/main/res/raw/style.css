@@ -3,6 +3,21 @@ body {
     font-family: arial;
     overflow-x: hidden;
 }
+td {
+    background-color: #e2ddd0;
+}
+thead.header {
+    background-color: #e2ddd0;
+}
+th.events {
+    color: #e2ddd0;
+}
+
+tr.plegable.plegado {
+    background-color: #e2e2e2;
+    border-bottom: 5px;
+    border-bottom-style: groove;
+}
 
 .clubs {
     display: none;
@@ -10,11 +25,18 @@ body {
 
 #main_header {
     display: none;
+    }
+
+
+body:not(.ejem) #main_wrapper .apoyos {
+    display: none;
+
 }
+
 
 #main_wrapper {
     background: #0c0c0c;
-
+    top: 0px;
 }
 
 .filtro.form {

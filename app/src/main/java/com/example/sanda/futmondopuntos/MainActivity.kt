@@ -50,12 +50,16 @@ class MainActivity : AppCompatActivity() {
                 "var footer = document.getElementsByTagName('footer')[0];"
                 + "footer.parentNode.removeChild(footer);" +
                 "})()")
-        /*view.loadUrl("javascript:(function() { " +
-                "var element1 = document.getElementsByClassName('adsbygoogle');"
-                + "element1.parentNode.removeChild(element1);" +
-                "})()")
         view.loadUrl("javascript:(function() { " +
-                "var element = document.getElementById('main_header');"
+                "var value = 'style=\"background-color: #DDF3DF\"';"
+               + "value.replace(\"#DDF3DF\", \"white\");" +
+                 "document.write(value);" +
+
+                "}" +
+                "})()")
+
+       /*view.loadUrl("javascript:(function() { " +
+                "var element = document.getElementById('preload');"
                 + "element.parentNode.removeChild(element);" +
                 "})()")
         view.loadUrl("javascript:(function() { " +
